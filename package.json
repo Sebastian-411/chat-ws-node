@@ -1,0 +1,18 @@
+{
+  "name": "chat-ws-node",
+  "version": "1.0.0",
+  "description": "Real time chat with web sockets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.19.2",
+    "morgan": "1.10.0"
+  }
+}
