@@ -31,3 +31,28 @@
 #form>button:hover {
   background: #0af;
 }
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages>li {
+  padding: 0.5rem 1rem;
+}
+
+#messages>li:nth-child(odd) {
+  background: #efefef;
+}
+
+
+#log {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  height: 50px;
+  width: 150px;
+  font-size: 10px;
+  background: #eee;
+}
