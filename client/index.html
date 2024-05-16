@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Chatting website</title>
+  <style>
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: grid;
+      place-content: center;
+      height: 100vh;
+      padding: 36px;
+      grid-template-rows: 1fr;
+    }
+
+    #chat {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      overflow: hidden;
+      width: 350px;
+      height: 100%;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="chat">
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Enviar</button>
+    </form>
+  </section>
+</body>
+
+</html>
