@@ -4,32 +4,13 @@
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Chatting website</title>
-  <style>
-    *,
-    *:before,
-    *:after {
-      box-sizing: border-box;
-    }
+  <link rel="stylesheet" href="/css/style.css">
 
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      display: grid;
-      place-content: center;
-      height: 100vh;
-      padding: 36px;
-      grid-template-rows: 1fr;
-    }
+  <script type="module">
+    import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";
+    const socket = io()
+  </script>
 
-    #chat {
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      overflow: hidden;
-      width: 350px;
-      height: 100%;
-      position: relative;
-    }
-  </style>
 </head>
 
 <body>

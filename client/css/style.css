@@ -1,0 +1,33 @@
+#form {
+  bottom: 0;
+  display: flex;
+  height: 48px;
+  left: 0;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+}
+
+#input {
+  border-radius: 9999px;
+  border: 1px solid #eee;
+  flex: 1;
+  margin: 4px;
+  padding: 0 8px;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#form>button {
+  background: #09f;
+  color: #fff;
+  border: none;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+#form>button:hover {
+  background: #0af;
+}
